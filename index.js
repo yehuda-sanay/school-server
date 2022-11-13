@@ -15,6 +15,8 @@ const studentDetels=[{id:0, firstName:"yehuda",lastName:"sanay", age:"31",},
 {id:2, firstName:"eldad",lastName:"brano", age:"22",},
 {id:3, firstName:"shlomo",lastName:"haylo", age:"29",}]
 
+app.p
+
 app.get("/student",(req,res)=>{
     res.send({message:`have the student detels`,studentDetels})
 })
